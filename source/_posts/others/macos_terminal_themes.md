@@ -31,7 +31,6 @@ tags: others
 首先我们先安装MacOS 中比较好用的软件包管理器 [Homebrew](https://brew.sh)
 
 ```bash
-
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 ```
@@ -39,9 +38,7 @@ tags: others
 ## 安装 oh-my-zsh
 
 ```bash
-
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 ```
 
 ## 配置 oh-my-zsh 主题
@@ -55,7 +52,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 vim ~/.zshrc
 
 // 将 ZSH_THEME 设置为即将要是用的主题名称
-
 ZSH_THEME="pygmalion"
 
 ```
@@ -73,7 +69,6 @@ source ~/.zshrc
 ```bash
 cd ~/.oh-my-zsh/themes // 主题目录
 cd ~/.oh-my-zsh/plugins // 插件所在目录
-
 ```
 
 ## 安装oh-my-zsh插件

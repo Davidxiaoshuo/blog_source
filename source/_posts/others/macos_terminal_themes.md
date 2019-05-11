@@ -98,7 +98,7 @@ plugins=(
 
 ![](https://raw.githubusercontent.com/zsh-users/zsh-syntax-highlighting/master/images/after2.png)
 
-## 修改 Terminal 的Profile，导入我们想要的主题
+## 修改 Terminal 的Profile，导入我们想要的主题 【我选择的是***Fideloper***】
 
 [macos-terminal-themes](https://github.com/lysyi3m/macos-terminal-themes) 提供了丰富的主题供我们选择，我们可以在当中找一款与我们所选zsh主题相符合的主题。
 

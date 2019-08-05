@@ -8,17 +8,19 @@
 brew install minicom
 ```
 
-2. 将串口线连接到电脑USB上，查看当前命令行查看连接的串口号
+### Setup
+
+1. 将串口线连接到电脑USB上，查看当前命令行查看连接的串口号
 
 ```bash
 ls /dev/tty*
 ```
 
-![](../../../resources/images/serial_port_num.jpg)
+![](https://raw.githubusercontent.com/Davidxiaoshuo/blog_source/master/resources/images/serial_port_num.jpg)
 
 > ***上图中的 `/dev/tty.usbserial-14340` 就是 USB 的串口号***
 
-3. 将串口号配置给串口工具 `minicom`
+2. 将串口号配置给串口工具 `minicom`
 
 -  命令打开串口工具
 
@@ -26,11 +28,11 @@ ls /dev/tty*
 minicom -s
 ```
 
-![](../../../resources/images/minicom_board.jpg)
+![](https://raw.githubusercontent.com/Davidxiaoshuo/blog_source/master/resources/images/minicom_board.jpg)
 
 - 通过键盘上的 `J`, `K` 或者方向键上下移动到 `Serial port setup` 选项，按回车选中，进入串口设置界面
 
-![](../../../resources/images/minicom_setup.jpg)
+![](https://raw.githubusercontent.com/Davidxiaoshuo/blog_source/master/resources/images/minicom_setup.jpg)
 
 - 通过键盘上的大写字母 `A`  选中进入 `Serial Device` 选项，并将之前复制好的串口号粘贴在此，并按***两次***回车, 回到主 Setup 界面。
 - 定位到 `Save setup as dfl ` 回车并选中。

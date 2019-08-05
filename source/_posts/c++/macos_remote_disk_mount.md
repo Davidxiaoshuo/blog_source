@@ -23,7 +23,7 @@ sshfs remote_account@ip:remote_directory /local/directory
 ```
 
 
-> **挂在到本地时，避免挂在到根目录下或者当前账户的主目录下，否则会引起以下错误：**
+> **挂载到本地时，避免挂在到根目录下或者当前账户的主目录下，否则会引起以下错误：**
 
 ```
 mount_osxfuse: mount point /Users/xxxx/ImageFolder is itself on a OSXFUSE volume

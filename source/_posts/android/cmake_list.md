@@ -1,8 +1,9 @@
 ---
 title: android studio cmake 编译常规设置
-date: 2019-04-24 11:59:52
 tags: android
 ---
+
+# android studio cmake 编译常规设置
 
 #### 1. add\_executable 指令
 
@@ -262,32 +263,29 @@ compileSdkVersion 25
 buildToolsVersion "25.0.3"
 
 defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
-        externalNativeBuild {
-           cmake {
-                // Passes optional arguments to CMake.
-                arguments 
-                "-DANDROID_ARM_NEON=TRUE",
-                "-DANDROID_TOOLCHAIN=clang"
-                // Sets optional flags for the C compiler.
-                cFlags "-D_EXAMPLE_C_FLAG1","-D_EXAMPLE_C_FLAG2"
-                // Sets a flag to enable format macro constants for the C++ compiler.
-                cppFlags "-D__STDC_FORMAT_MACROS"
-                //生成.so库的目标平台
-                abiFilters 'x86','x86_64','armeabi','armeabi-v7a','arm64-v8a'
-                }
+    minSdkVersion 15
+    targetSdkVersion 25
+    versionCode 1
+    versionName "1.0"
+    externalNativeBuild {
+        cmake {
+            // Passes optional arguments to CMake.
+            arguments 
+            "-DANDROID_ARM_NEON=TRUE",
+            "-DANDROID_TOOLCHAIN=clang"
+            // Sets optional flags for the C compiler.
+            cFlags "-D_EXAMPLE_C_FLAG1","-D_EXAMPLE_C_FLAG2"
+            // Sets a flag to enable format macro constants for the C++ compiler.
+            cppFlags "-D__STDC_FORMAT_MACROS"
+            //生成.so库的目标平台
+            abiFilters 'x86','x86_64','armeabi','armeabi-v7a','arm64-v8a'
         }
+    }
 }
 //配置 CMakeLists.txt 路径
-    externalNativeBuild {
-
-        cmake {
-
-            path "CMakeLists.txt"
-            }
+externalNativeBuild {
+     cmake {
+        path "CMakeLists.txt"
     }
 }
 ```

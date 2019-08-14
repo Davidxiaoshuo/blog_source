@@ -1,6 +1,7 @@
 * Tech
     - android
         * [android studio cmake 编译常规设置](/android/cmake_list)
+        * [Android Jni 层 Log 输出](/android/jni_logger)
     - c++
         * [C++ 中 基础类型转换成 char*](/c++/cplus_type_convert)
         * [macos 远程硬盘挂载](/c++/macos_remote_disk_mount)

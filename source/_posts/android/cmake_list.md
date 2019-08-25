@@ -3,8 +3,6 @@ title: android studio cmake 编译常规设置
 tags: android
 ---
 
-# android studio cmake 编译常规设置
-
 ### add_executable 指令
 
 语法：`add_executable(executable_file_name [source])`将一组源文件 source 生成一个可执行文件。 source  可以是多个源文件，也可以是对应定义的变量  如：`add_executable(hello main.c)`

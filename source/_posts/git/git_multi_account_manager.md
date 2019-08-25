@@ -4,8 +4,6 @@ date: 2019-04-23 16:31:52
 tags: git
 ---
 
-# Git 多github（gitlab）账号管理
-
 场景：很多时候我们有公司的github的账号同时自己私下还可能会有多个git平台的账号（如：github，gitlab）。这时候在管理git账号，指定哪个项目用哪个账号，放在哪个账户的仓库下，就显得尤为重要了。下面简单说下如何配置git config 文件去管理这些git平台账号。
 
 #### 1. 生成ssh-key

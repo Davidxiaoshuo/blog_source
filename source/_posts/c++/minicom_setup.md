@@ -1,4 +1,7 @@
-# USB 转串口工具 minicom Setup
+---
+title: USB 转串口工具 minicom Setup
+tags: c++
+---
 
 ### 准备工作
 

@@ -1,6 +1,5 @@
 ---
 title: MacOS Terminal 美化 【程序猿推荐】
-date: 2019-05-11 17:58:52
 tags: others
 ---
 

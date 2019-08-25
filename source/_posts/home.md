@@ -1,3 +1,8 @@
+---
+title: Home Page
+tags: others
+---
+
 ## Home Page
 
 Hi, 这里是我记录我所感兴趣的技术，生活的地方。如果技术上有错误的地方欢迎联系我，并指正。

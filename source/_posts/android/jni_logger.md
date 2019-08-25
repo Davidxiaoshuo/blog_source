@@ -1,4 +1,7 @@
-# Android JNI 层 Log 输出
+---
+title: Android JNI 层 Log 输出
+tags: android
+---
 
 ### 概述：
 
@@ -8,7 +11,7 @@ android 中在进行一些 C++ 底层库开发的时候难免需要一些 log �
 
 ### __android_log_print 主要使用的函数
 
-```c++
+```
 int __android_log_print(
   int prio,	//优先级
   const char *tag,	//标签
@@ -44,7 +47,7 @@ target_link_libraries( # Specifies the target library.
 
 > **首先要引入所需的头文件** `#include <android/log.h>`
 
-```c++
+```
 #include <android/log.h>
 
 #define TAG "ProjectName" // 这个是自定义的LOG的标识   
@@ -64,7 +67,7 @@ target_link_libraries( # Specifies the target library.
 
 ### 使用
 
-```c++
+```
 char* log_example_str = "hello logger";
 LOGD("This is a log, the content is %s", log_example_str);
 LOGI("This is a log, the content is %s", log_example_str);

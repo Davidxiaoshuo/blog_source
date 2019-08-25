@@ -8,7 +8,7 @@ subtitle: write readable code
 description: 在这个薄情的世界，深情地活着
 keywords:
 author: David Bo
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -39,10 +39,10 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: false
+  enable: true
   line_number: false
-  auto_detect: false
-  tab_replace:
+  auto_detect: true
+  tab_replace: false
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -74,8 +74,24 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: book
+theme: pure
 
+# hexo-neat
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:  
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js' 
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -85,38 +101,42 @@ deploy:
   branch: master
 
 
+# Markdown-it config
+# Docs: https://github.com/hexojs/hexo-renderer-markdown-it/wiki
 markdown:
   render:
-    html: true # Doesn't escape HTML content so the tags will appear as html.
-    xhtmlOut: false # Parser will not produce XHTML compliant code.
-    breaks: true # Parser produces `<br>` tags every time there is a line break in the source document.
-    linkify: true # Returns text links as text.
-    typographer: true # Substitution of common typographical elements will take place.
-    quotes: '“”‘’' # "double" will be turned into “single”
-                   # 'single' will be turned into ‘single’
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
   plugins:
     - markdown-it-abbr
-    - markdown-it-container
-    - markdown-it-deflist
-    - markdown-it-emoji
     - markdown-it-footnote
-    - markdown-it-imsize
     - markdown-it-ins
-    - markdown-it-mark
-    - markdown-it-regexp
     - markdown-it-sub
     - markdown-it-sup
-    - markdown-it-checkbox
-    - '@iktakahiro/markdown-it-katex'
-
+    - markdown-it-deflist
+    - markdown-it-imsize
+    - markdown-it-mark
+    - markdown-it-regexp
+    - markdown-it-task-checkbox
+    - name: markdown-it-container
+      options: success
+    - name: markdown-it-container
+      options: info
+    - name: markdown-it-container
+      options: warning
+    - name: markdown-it-container
+      options: danger
+    - markdown-it-deflist
+    - name: markdown-it-emoji
+      options:
+        shortcuts: {}
   anchors:
-    # Minimum level for ID creation. (Ex. h2 to h6)
     level: 1
-    # A suffix that is prepended to the number given if the ID is repeated.
     collisionSuffix: 'v'
-    # If `true`, creates an anchor tag with a permalink besides the heading.
-    permalink: false
-    # Class used for the permalink anchor tag.
+    permalink: true
     permalinkClass: header-anchor
-    # The symbol used to make the permalink
-    permalinkSymbol: '# '
+    permalinkSymbol: ''

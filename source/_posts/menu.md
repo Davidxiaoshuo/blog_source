@@ -1,8 +1,3 @@
----
-title: menu
-tags: others
----
-
 * Tech
     - android
         * [android studio cmake 编译常规设置](/android/cmake_list)

@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: David小硕
+title: David硕
 subtitle: write readable code
 description: 在这个薄情的世界，深情地活着
 keywords:
@@ -121,7 +121,6 @@ markdown:
     - markdown-it-imsize
     - markdown-it-mark
     - markdown-it-regexp
-    - markdown-it-task-checkbox
     - name: markdown-it-container
       options: success
     - name: markdown-it-container

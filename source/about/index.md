@@ -366,9 +366,7 @@ ATOS 方案 SKU 采用外部合作方式进行研发, 本人负责主导外部�
 
 
 
-![SDK 的架构图](./../resources/message-plugin-box.png)
-
-
+![SDK 的架构图](https://raw.githubusercontent.com/Davidxiaoshuo/blog_source/master/resources/images/message-plugin-box.png)
 
 # 语言能力
 

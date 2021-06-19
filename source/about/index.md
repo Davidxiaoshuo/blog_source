@@ -110,7 +110,7 @@ Android 研发工程师
 
 ### Luka 阅读养成 App-iOS 2.0
 
-​	支持 iOS 9.0 及以上系统。架构： MVVM，整体组合套件：MVVM + GraphQL API「Apollo」+ IM 通讯 + Releam + ReactiveKit + Router
+​	支持 iOS 9.0 及以上系统。架构： MVVM，整体组合套件：MVVM + GraphQL API「Apollo」+ IM 通讯 + Realm + ReactiveKit + Router
 
 ##### 方案选型：
 
@@ -122,7 +122,7 @@ Android 研发工程师
 
 - 模块通信：基于自定义 Router 路由机制。
 
-- 数据存储：本地数据基于 `Releam` 数据库，远程文件资源存储基于 `Aliyun-OSS`。
+- 数据存储：本地数据基于 `Realm` 数据库，远程文件资源存储基于 `Aliyun-OSS`。
 
 - App 异常监测：前期采用 `Fabric`，后期采用腾讯 `Bugly`。
 
@@ -134,8 +134,8 @@ Android 研发工程师
 
 ​		支持 Android 5.0 及以上。
 
-​				前期架构： MVP， 整体组合套件： MVP + GraphQL API「Apollo」+ IM 通讯 + Releam + Router
-​				后期架构： MVVM， 整体组合套件：MVVM + GraphQL API「Apollo」+  IM 通讯 + Releam + Router + Jetpack
+​				前期架构： MVP， 整体组合套件： MVP + GraphQL API「Apollo」+ IM 通讯 + Realm + Router
+​				后期架构： MVVM， 整体组合套件：MVVM + GraphQL API「Apollo」+  IM 通讯 + Realm + Router + Jetpack
 
 ##### 方案选型：
 
@@ -147,7 +147,7 @@ Android 研发工程师
 
 - 模块通信：基于自定义 Router 路由机制。
 
-- 数据存储：本地数据基于 `Releam` 数据库，远程文件资源存储基于 `Aliyun-OSS`。
+- 数据存储：本地数据基于 `Realm` 数据库，远程文件资源存储基于 `Aliyun-OSS`。
 
 - App 异常监测：前期采用 `Fabric`，后期采用腾讯 `Bugly`。
 

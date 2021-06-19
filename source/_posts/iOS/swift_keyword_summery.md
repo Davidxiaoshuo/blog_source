@@ -1,6 +1,7 @@
 ---
 title: Swift 总结之关键字
-tags: iOS
+categories: iOS
+tags: swift
 ---
 
 ### 声明式关键字

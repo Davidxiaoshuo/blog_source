@@ -1,6 +1,7 @@
 ---
 title: macos 远程硬盘挂载
-tags: c++
+categories: DevEnv
+tags: env
 ---
 
 ### 准备工作

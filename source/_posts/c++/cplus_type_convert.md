@@ -1,5 +1,6 @@
 ---
 title: C++ 中 基础类型转换成 char *
+categories: C++
 tags: c++
 ---
 

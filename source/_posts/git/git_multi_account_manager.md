@@ -1,6 +1,7 @@
 ---
 title: Git 多github（gitlab）账号管理
 date: 2019-04-23 16:31:52
+categories: Git
 tags: git
 ---
 

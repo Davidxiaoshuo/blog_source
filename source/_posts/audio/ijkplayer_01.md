@@ -1,6 +1,7 @@
 ---
 title: IjkPlayer 从编译集成到简单音频播放器的封装 [Android & iOS] 一
-tags: [audio, android]
+categories: Android
+tags: [android, audio]
 ---
 
 ## 编译篇【Android】

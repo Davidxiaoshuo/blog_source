@@ -1,6 +1,7 @@
 ---
 title: android studio cmake 编译常规设置
-tags: android
+categories: Android
+tags: [android, jni]
 ---
 
 ### add_executable 指令

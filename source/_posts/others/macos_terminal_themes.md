@@ -1,6 +1,7 @@
 ---
 title: MacOS Terminal 美化 【程序猿推荐】
-tags: others
+categories: Other
+tags: other
 ---
 
 # MacOS Terminal 美化 【程序猿推荐】

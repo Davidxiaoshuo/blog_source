@@ -7,7 +7,7 @@ title: David硕
 subtitle: write readable code
 description: 在这个薄情的世界，深情地活着
 keywords:
-author: David Bo
+author: David硕
 language: zh-CN
 timezone:
 
@@ -74,7 +74,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: pure
+theme: Chic
 
 # hexo-neat
 neat_enable: true

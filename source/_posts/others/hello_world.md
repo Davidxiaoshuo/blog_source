@@ -1,6 +1,7 @@
 ---
 title: Hello World
-tags: others
+categories: Other
+tags: other
 ---
 
 # Hexo Page 简单发布流程

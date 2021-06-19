@@ -1,5 +1,6 @@
 ---
 title: Android Studio Gradle's Logger
+categories: Android
 tags: android
 ---
 

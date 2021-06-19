@@ -1,6 +1,7 @@
 ---
 title: Swift 总结之属性重写 「override」
-tags: iOS
+categories: iOS
+tags: swift
 ---
 
 ```swift

@@ -1,6 +1,7 @@
 ---
 title: Android JNI 层 Log 输出
-tags: android
+categories: Android
+tags: [android, jni]
 ---
 
 ### 概述：

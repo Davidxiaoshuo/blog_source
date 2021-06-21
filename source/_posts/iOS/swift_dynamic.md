@@ -54,7 +54,7 @@ tags: swift
 消息调度是三者中最动态的。作为权衡，虽然查找性能由缓存机制保护，但解析实现的成本可能会有点昂贵。
 这种机制是 Cocoa 框架的基石。查看 Swift 的源码，你会发现 KVO 是使用 swizzling 实现的。
 
-- Swift 中实现 Message Dispatch, 需要在方法前添加 `@objc dynamic`。 在 Swift 4.0 之前，`@Objc` 是被隐式添加的，在 4.0 以后，需要我们手动添加。
+- Swift 中实现 Message Dispatch, 需要在方法前添加 `@objc dynamic`。 在 Swift 4.0 之前，`@objc` 是被隐式添加的，在 4.0 以后，需要我们手动添加。
 
 
 ### Swift 中的方法分派 case

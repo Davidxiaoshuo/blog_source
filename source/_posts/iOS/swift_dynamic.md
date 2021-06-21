@@ -70,7 +70,7 @@ extension Animal {
 
 class Dog: Animal {
 	override func eat() { }	// Compiled error!
-	@objc dynamic override func getWild() { }	// Ok :)
+	@objc dynamic override func getWild() { } // Ok :)
 }
 
 
@@ -78,19 +78,19 @@ protocol Noisy {
 	func makeNoise() -> Int	// Table Dispatch
 }
 extension Noisy {
-	func makeNoise() -> Int { return 0 }	// Table Dispatch
-	func isAnnoying() -> Bool { return true }	// Static Dispatch, extension 中普工方法
+	func makeNoise() -> Int { return 0 } // Table Dispatch
+	func isAnnoying() -> Bool { return true } // Static Dispatch, extension 中普工方法
 }
 
 class Animal: Noisy {
-	func makeNoise() -> Int { return 1 }	// Table Dispatch
+	func makeNoise() -> Int { return 1 } // Table Dispatch
 	func isAnnoying() -> Bool { return false } // Table Dispatch
 	@objc func sleep() { }	// Table Dispatch
 }
 
 extension Animal {
-	func eat() { }	// Static Dispatch, extension 中普工方法
-	@objc func getWild() { }	// Message Dispatch
+	func eat() { } // Static Dispatch, extension 中普工方法
+	@objc func getWild() { } // Message Dispatch
 }
 
 ```

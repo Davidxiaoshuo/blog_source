@@ -8,12 +8,12 @@ tags: swift
 
 ##### Keyword： `class`
 
-Description： Swift 语言中一种构造体，它具有以下特性：
+Description： Swift 语言中一种构造体「数据类型」，它具有以下特性：
 
 - 一个类允许另一个类进行继承，形成父子关系。
 - 支持类型转换「type-casting」，允许在运行时，检查 & 指定一个类的实际类型。
 - 支持实现协议「protocol」。
-- 支持 `deinit` 析构函数，并且在可以释放所有资源。
+- 支持 `deinit` 析构函数，并且在销毁前可以释放所有资源。
 - 支持引用计数，允许多个引用指向同一个实例。
 - 不支持默认成员初始化构造器「memberwise initializer」。
 - 属于引用类型，存储在堆内存中
@@ -22,7 +22,7 @@ Description： Swift 语言中一种构造体，它具有以下特性：
 
 ##### Keyword： `struct`
 
-Description：与 class 一样，也是 Swift 语言中一个重要的构造体，它具有以下特性：
+Description：与 class 一样，也是 Swift 语言中一个重要的构造体「数据类型」，它具有以下特性：
 
 - 支持实现协议
 - 支持默认成员初始化构造器「memberwise initializer」。

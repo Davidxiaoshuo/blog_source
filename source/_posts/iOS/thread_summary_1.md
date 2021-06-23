@@ -5,6 +5,8 @@ categories: iOS
 tags: swift，Objective-C
 ---
 
+> 前言：下面出现的练习 code 在 [SwiftyThreadExercise](https://github.com/Davidxiaoshuo/SwiftyThreadExercise)
+
 ### 一些基本概念
 
 - 进程：在系统中运行的一个应用程序，每个进程间是独立的。每个进程均运行在其专有的且受保护的内存空间中。

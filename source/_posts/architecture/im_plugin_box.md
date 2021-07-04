@@ -26,6 +26,6 @@ tags: [android, iOS]
 
 ### 业务层应答机制
 
-由于 App 需要试试掌握设备端的状态。所以需要基于 IM 需要设计出一套 ACK 机制来实现此需求。
+由于 App 需要实时掌握设备端的状态。所以需要基于 IM 需要设计出一套 ACK 机制来实现此需求。
 
 ![](https://raw.githubusercontent.com/Davidxiaoshuo/blog_source/master/resources/images/im_ack.png)

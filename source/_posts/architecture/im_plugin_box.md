@@ -14,6 +14,16 @@ tags: [android, iOS]
 
 ![](https://raw.githubusercontent.com/Davidxiaoshuo/blog_source/master/resources/images/message-plugin-box.png)
 
+在 iOS 中，根据 CocoaPods 的特性，可以根据具体需求，底层去集成一家或多家 SDK。 
+
+如: `pod 'WLIMPlugBox', '0.3.0', :subspecs => ['AliyunMQTT', 'NIM']`
+
+
+在 Android 中，利用 gradle 的 Flavor 的特性，对各家 SDK 进行组合，可以发布多个 Library 到 Maven，App 可根据需求集成不同 Lib。
+
+如: `"ai.ling.lib:im-messager-nimAndAliyunMqtt:0.1.0-rc.22";`
+
+
 ### 业务层应答机制
 
 由于 App 需要试试掌握设备端的状态。所以需要基于 IM 需要设计出一套 ACK 机制来实现此需求。

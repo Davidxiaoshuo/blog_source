@@ -2,7 +2,7 @@
 title: iOS 线程使用总结 1
 date: 2021-06-19 19:15:37
 categories: iOS
-tags: swift，Objective-C
+tags: [swift，Objective-C]
 ---
 
 > 前言：下面出现的练习 code 在 [SwiftyThreadExercise](https://github.com/Davidxiaoshuo/SwiftyThreadExercise)

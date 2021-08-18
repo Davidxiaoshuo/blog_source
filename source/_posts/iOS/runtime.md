@@ -5,8 +5,6 @@ categories: iOS
 tags: swift, runtime
 ---
 
-### 文章结构
-
 > 1. 什么是 Runtime
 > 2. Runtime 中的专有知识解释
 > 3. 消息框架「消息机制工作流程」
